@@ -1,0 +1,53 @@
+.header__issue {
+  text-align: center;
+  width: 100%;
+  height: 160px;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.issue__type {
+  text-decoration: underline;
+  color: #397FF4;
+  padding: 8px 0;
+}
+
+.issue__with-people {
+  margin: 8px 0;
+  color: #b4b4b4;
+  font-weight: 200;
+}
+
+.progress__text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.progress__text span {
+  color: #397FF4;
+}
+
+.progress {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.progress-Bar {
+  width: 20%;
+  height: 8px;
+  background-color: #397FF4;
+  border-radius: 4px;
+}
+
+.issue__title{
+  /*padding-bottom: 8px;*/
+  /*box-sizing: border-box;*/
+}
+
+.issue__title h3{
+  font-size: 20px;
+  line-height: 130%
+}

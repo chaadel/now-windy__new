@@ -1,0 +1,78 @@
+.timeline__milestones {
+  background-color: #AEB0B4;
+  margin: 8px;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timeline__milestones-now {
+  background-color: #77CEE6;
+  margin: 0px;
+  border-radius: 0;
+}
+
+.milestones__title {
+  padding: 16px;
+  text-decoration: line-through;
+}
+
+.timeline__milestones-now .milestones__title {
+  text-decoration: none;
+  /*padding: 16px 24px;*/
+}
+
+.milestones__bottom {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+.milestone__list {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.milestone__column {
+  padding: 8px;
+  padding-bottom: 16px;
+}
+
+.milestone__time {
+  color: #75777B;
+  font-weight: 400;
+  padding-left: 24px;
+  padding-bottom: 8px;
+}
+
+.timeline__milestone {
+  margin: 0px 24px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.milestone__header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0 16px;
+}
+
+.milestone__title {
+  padding: 16px;
+}
+
+.milestone__title-cancled {
+  text-decoration: line-through;
+}
+
+.milestone__bottom {
+  text-align: center;
+  padding: 16px 0;
+  background-color: #F7F8F9;
+  color: #b4b4b4;
+  border-radius: 0 0 6px 6px;
+}

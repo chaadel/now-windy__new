@@ -1,0 +1,83 @@
+.feed__container {
+  background-color: #FFFFFF;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  margin-top: 8px;
+}
+
+.feed__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  height: 40px;
+  font-size: 14px;
+  border-bottom: 1px solid #ebebeb;
+  box-sizing: border-box;
+}
+
+.feed__title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.feed__header-icons span {
+  padding-left: 16px;
+}
+
+.feed__before {
+  color: #b4b4b4;
+}
+
+.feed__issue {
+  padding: 0px 16px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 124px;
+  box-sizing: border-box;
+}
+
+.feed__issue:last-child {
+  margin-bottom: 24px;
+}
+
+.issue__thumbnail {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ebebeb;
+  border-radius: 5%;
+  background-color: #fff;
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.preview__title {
+  line-height: 150%;
+  padding-bottom: 4px;
+}
+
+.issue__info {
+  margin-left: 16px;
+  width: 65%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.issue__owner {
+  color: #397FF4;
+  font-size: 12px;
+}
+
+.issue__tags {
+  display: flex;
+  margin-top: 20px;
+}
+
+.issue__tag {
+  margin-right: 6px;
+  color: #75777B;
+  font-size: 12px;
+  font-weight: 200;
+}

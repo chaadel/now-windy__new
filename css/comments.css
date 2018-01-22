@@ -1,0 +1,30 @@
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebebeb;
+  background-color: white;
+  padding: 12px 16px;
+}
+
+.comment__head {
+  display: flex;
+  width: 85%;
+  box-sizing: border-box;
+  line-height: 130%;
+}
+
+.comment__count {
+  color: #397FF4;
+  font-weight: 200;
+  padding-right: 16px;
+}
+
+.comment__writer {
+  color: #75777B;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 130%;
+}

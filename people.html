@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+  <title>people | now windy</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header__top">
+    <div class="navigation">
+      <div class="navigation__column">
+        <a href="#"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
+      </div>
+      <div class="navigation__column">
+        <img src="images/logo.png" class="navigation__img">
+      </div>
+      <div class="navigation__column">
+        <form class="navigation__text" action="#" method="get">
+          <!-- <input type="text" placeholder="이슈나 인물을 검색하세요."> -->
+          <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+        </form>
+      </div>
+    </div>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab">이슈</a>
+      <a href="people.html" class="tab-bar__tab tap-bar__tab-selected">인물</a>
+    </nav>
+  </header>
+  <main class="people">
+    <header class="people__search">
+      <div class="people__party">
+        <button onclick="myFunction()" class="dropbtn">
+            <span>전체</span>
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+          </button>
+        <div id="dropdown" class="party__contents">
+          <a href="#">전체</a>
+          <a href="#">더불어민주당</a>
+          <a href="#">자유한국당</a>
+          <a href="#">국민의당</a>
+          <a href="#">바른정당</a>
+          <a href="#">정의당</a>
+          <a href="#">기타/무소속</a>
+        </div>
+      </div>
+      <div class="people__filter">
+        <a href="#">활동순</a> | <a href="#">좋아요순</a> | <a href="#">조건검색</a>
+      </div>
+    </header>
+    <ul class="people__list">
+      <li class="people__person">
+        <div class="person__content">
+          <img src="images/img1.jpg" class="person__avatar">
+          <div class="person__preview">
+            <h3 class="person__name">홍길동</h3>
+            <div class="person__counts">
+              <span class="person__stat">진행중인 활동 <span class="stat__number">5</span>건 | 총 활동 수 <span class="stat__number">24</span>건</span>
+            </div>
+          </div>
+        </div>
+        <span class="person__like">
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+      </li>
+      <li class="people__person">
+        <div class="person__content">
+          <img src="images/img1.jpg" class="person__avatar">
+          <div class="person__preview">
+            <h3 class="person__name">김수지</h3>
+            <div class="person__counts">
+              <span class="person__stat">진행중인 활동 <span class="stat__number">5</span>건 | 총 활동 수 <span class="stat__number">24</span>건</span>
+            </div>
+          </div>
+        </div>
+        <span class="person__like">
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+      </li>
+      <li class="people__person">
+        <div class="person__content">
+          <img src="images/img1.jpg" class="person__avatar">
+          <div class="person__preview">
+            <h3 class="person__name">최혁</h3>
+            <div class="person__counts">
+              <span class="person__stat">진행중인 활동 <span class="stat__number">5</span>건 | 총 활동 수 <span class="stat__number">24</span>건</span>
+            </div>
+          </div>
+        </div>
+        <span class="person__like">
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+      </li>
+    </ul>
+  </main>
+</body>
+
+</html>

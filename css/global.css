@@ -1,0 +1,54 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #3C3E41;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  max-width: 100%;
+  box-sizing: border-box;
+  /*transform: rotate(0.3);*/
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 200;
+}
+
+i {
+  font-size: 24px;
+}
+
+span {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.comments, .about, .timeline {
+  padding-top: 252px;
+  padding-bottom: 48px;
+}
+
+.feed, .people {
+  padding-top: 92px;
+}
+
+.profile {
+  padding-top: 166px;
+}
+
+.fa-heart-o:hover {
+  color: red;
+}

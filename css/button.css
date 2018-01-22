@@ -1,0 +1,23 @@
+.btn__bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+  position: fixed;
+  border-bottom: 0;
+}
+
+.btn {
+  width: 50%;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  background-color: #75777B;
+  cursor: pointer;
+}
+
+.btn__highlight {
+  background-color: #397FF4;
+}
