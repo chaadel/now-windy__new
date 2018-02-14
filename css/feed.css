@@ -51,6 +51,15 @@
   background-color: #fff;
   box-sizing: border-box;
   background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+.issue__thumbnail img{
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  transform: translate(-8%,0%);
 }
 
 .preview__title {

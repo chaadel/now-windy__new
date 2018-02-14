@@ -4,22 +4,50 @@
   align-items: center;
   padding: 10px 16px;
   font-size: 12px;
-  border-bottom: 1px solid #ebebeb;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   box-sizing: border-box;
 }
 
-.party__contents {
+.dropbtns span:hover {
+  color: #397FF4;
+}
+
+.dropbtn:hover {
+  background-color: #ebebeb;
+}
+
+.dropbtns ul {
   display: none;
+  position: absolute;
+  background-color: white;
+  margin-top: 10px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+}
+
+.people__party:hover ul {
+  display: block;
 }
 
 .dropbtn {
-  border: none;
+  float: none;
+  padding: 10px 8px;
 }
 
-.people__filter a {
+.people__filter {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 300;
+}
+
+.people__filter a:hover {
   color: #3C3E41;
+  font-weight: 400;
+}
+
+.people__filter a:first-child {
+  color: #3C3E41;
+  font-weight: 400;
 }
 
 .people__person {

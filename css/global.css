@@ -44,12 +44,16 @@ span {
   padding-bottom: 48px;
 }
 
-.feed, .people {
+.feed {
   padding-top: 92px;
 }
 
 .profile {
   padding-top: 166px;
+}
+
+.people {
+  padding-top: 125px;
 }
 
 .fa-heart-o:hover {

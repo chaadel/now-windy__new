@@ -16,7 +16,7 @@
         <a href="#"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></a>
       </div>
       <div class="navigation__column">
-        <img src="images/logo.png" class="navigation__img">
+        <a href="index.html"><img src="images/logo.png" class="navigation__img"></a>
       </div>
       <div class="navigation__column">
         <form class="navigation__text" action="#" method="get">
@@ -29,37 +29,34 @@
       <a href="index.html" class="tab-bar__tab">이슈</a>
       <a href="people.html" class="tab-bar__tab tap-bar__tab-selected">인물</a>
     </nav>
-  </header>
-  <main class="people">
     <header class="people__search">
       <div class="people__party">
-        <button onclick="myFunction()" class="dropbtn">
-            <span>전체</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
-          </button>
-        <div id="dropdown" class="party__contents">
-          <a href="#">전체</a>
-          <a href="#">더불어민주당</a>
-          <a href="#">자유한국당</a>
-          <a href="#">국민의당</a>
-          <a href="#">바른정당</a>
-          <a href="#">정의당</a>
-          <a href="#">기타/무소속</a>
+        <div class="dropbtns"><a href="#"><span>전체 <i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
+          <ul>
+            <li class="dropbtn"><a href="#">더불어민주당</a></li>
+            <li class="dropbtn"><a href="#">자유한국당</a></li>
+            <li class="dropbtn"><a href="#">국민의당</a></li>
+            <li class="dropbtn"><a href="#">바른정당</a></li>
+            <li class="dropbtn"><a href="#">정의당</a></li>
+            <li class="dropbtn"><a href="#">기타정당 및 무소속</a></li>
+          </ul>
         </div>
       </div>
       <div class="people__filter">
         <a href="#">활동순</a> | <a href="#">좋아요순</a> | <a href="#">조건검색</a>
       </div>
     </header>
+  </header>
+  <main class="people">
     <ul class="people__list">
       <li class="people__person">
         <a href="profile.html">
           <div class="person__content">
-            <img src="images/img1.jpg" class="person__avatar">
+            <img src="https://cdn.ycombinator.com/images/people/gustaf-f076e8c4.jpg" class="person__avatar">
             <div class="person__preview">
               <h3 class="person__name">홍길동</h3>
               <div class="person__counts">
-                <span class="person__stat">진행중인 활동 <span class="stat__number">5</span>건 | 총 활동 수 <span class="stat__number">24</span>건</span>
+                <span class="person__stat">진행중인 활동 <span class="stat__number">5</span>건 | 총 활동 수 <span class="stat__number">51</span>건</span>
               </div>
             </div>
           </div>
@@ -70,7 +67,7 @@
       </li>
       <li class="people__person">
         <div class="person__content">
-          <img src="images/img1.jpg" class="person__avatar">
+          <img src="https://peopledotcom.files.wordpress.com/2018/02/people-baublebar-emerald-collection.jpg?crop=70px%2C145px%2C1263px%2C1262px&resize=450%2C450" class="person__avatar">
           <div class="person__preview">
             <h3 class="person__name">김수지</h3>
             <div class="person__counts">
@@ -84,11 +81,39 @@
       </li>
       <li class="people__person">
         <div class="person__content">
-          <img src="images/img1.jpg" class="person__avatar">
+          <img src="https://amp.businessinsider.com/images/59badf4a38d20d21008b63e3-750-750.jpg" class="person__avatar">
           <div class="person__preview">
             <h3 class="person__name">최혁</h3>
             <div class="person__counts">
-              <span class="person__stat">진행중인 활동 <span class="stat__number">1</span>건 | 총 활동 수 <span class="stat__number">5</span>건</span>
+              <span class="person__stat">진행중인 활동 <span class="stat__number">6</span>건 | 총 활동 수 <span class="stat__number">27</span>건</span>
+            </div>
+          </div>
+        </div>
+        <span class="person__like">
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+      </li>
+      <li class="people__person">
+        <div class="person__content">
+          <img src="https://warwick.ac.uk/fac/soc/economics/staff/rakerlof/profile.jpg" class="person__avatar">
+          <div class="person__preview">
+            <h3 class="person__name">정슬기</h3>
+            <div class="person__counts">
+              <span class="person__stat">진행중인 활동 <span class="stat__number">2</span>건 | 총 활동 수 <span class="stat__number">16</span>건</span>
+            </div>
+          </div>
+        </div>
+        <span class="person__like">
+            <i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+          </span>
+      </li>
+      <li class="people__person">
+        <div class="person__content">
+          <img src="http://assets2.bigthink.com/system/user_icons/481555/original/M_Szalavitz_HS.jpg?1462476364" class="person__avatar">
+          <div class="person__preview">
+            <h3 class="person__name">박소연</h3>
+            <div class="person__counts">
+              <span class="person__stat">진행중인 활동 <span class="stat__number">1</span>건 | 총 활동 수 <span class="stat__number">15</span>건</span>
             </div>
           </div>
         </div>
