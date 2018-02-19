@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  animation: 1s bodyPopIn easy-in-out;
+  animation: .6s bodyPopIn ease-in-out;
 }
 
 a {
@@ -44,16 +44,12 @@ span {
   padding-bottom: 48px;
 }
 
-.feed {
+.feed, .people {
   padding-top: 92px;
 }
 
 .profile {
   padding-top: 166px;
-}
-
-.people {
-  padding-top: 125px;
 }
 
 .fa-heart-o:hover {
@@ -63,7 +59,7 @@ span {
 @keyframes bodyPopIn {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(8px);
   }
   to {
     opacity: 1;
