@@ -46,6 +46,16 @@
     </nav>
   </header>
   <main class="comments">
+    <div class="comment__box">
+      <form class="comment__forms" action="index.html" method="post">
+        <input type="hidden" name="_token" value="">
+        <div class="comment__form">
+          <textarea id="comment__contents" name="body" rows="2" cols="80" class="textarea t1 text" required="" placeholder="소셜로그인후 이용하실 수 있습니다." readonly="" onclick="loginpage();"></textarea>
+          <button type="button" id="btn__t4" onclick="loginpage();">동의</button>
+        </div>
+      </form>
+    </div>
+
     <ul>
       <li class="comment">
         <div class="comment__head">

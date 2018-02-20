@@ -9,6 +9,37 @@
   padding: 12px 16px;
 }
 
+.comment__box {
+  padding: 10px;
+  /*border: #ebebeb solid 1px;*/
+  background-color: #fafafa;
+}
+
+.comment__form {
+  display: flex;
+}
+
+#comment__contents {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: #ebebeb solid 1px;
+  margin-right: 10px;
+}
+
+#btn__t4 {
+  width: 30%;
+  max-width: 40%;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+  background-color: #397FF4;
+  cursor: pointer;
+}
+
+#btn__t4:hover {
+  box-shadow: 0px 0px 4px #397FF4;
+}
+
 .comment__head {
   display: flex;
   width: 85%;

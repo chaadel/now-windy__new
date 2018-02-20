@@ -21,3 +21,12 @@
 .btn__highlight {
   background-color: #397FF4;
 }
+
+.btn:hover {
+  box-shadow: 0px 0px 4px #75777B;
+}
+
+.btn__highlight:hover {
+  box-shadow: none;
+  box-shadow: 0px 0px 4px #397FF4;
+}
